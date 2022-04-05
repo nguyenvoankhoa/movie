@@ -1,0 +1,119 @@
+@import url(../css/reset.css);
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #141414;
+  position: relative;
+  overflow: hidden;
+}
+
+.login__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+
+.login__form__left {
+  padding: 30px;
+}
+
+.login__form__left a {
+  width: 350px;
+  display: block;
+}
+
+.login__form__left a img {
+  width: 100%;
+}
+
+.login__form__right {
+  border-left: 2px solid rgba(241, 241, 241, 0.15);
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  padding-left: 80px;
+  margin-left: 40px;
+  max-width: 500px;
+}
+
+.login__form__right h4 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 15px;
+  color: #c5c3c3;
+}
+
+.login__form__right h4 a {
+  color: #fff;
+}
+
+.login__form__right h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.login__form__right input {
+  width: 100%;
+  border: 1px solid rgba(241, 241, 241, 0.25);
+  padding: 10px 15px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  outline: none;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.login__form__right button {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 500;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: 0;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #ffbd3f;
+  padding: 10px 36px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.login__form__right button:hover {
+  background-color: #db9e2d;
+  border-color: #db9e2d;
+}
+
+.login iframe {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+/*# sourceMappingURL=login.css.map */
