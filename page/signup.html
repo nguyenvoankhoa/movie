@@ -24,11 +24,27 @@
         </div>
         <div class="login__form__right">
           <h3>Sign up your account</h3>
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Username" />
-          <input type="password" placeholder="Password" />
-          <input type="password" placeholder="Re-Password" />
-          <button>Sign up</button>
+          <input
+            type="text"
+            placeholder="Email(must follow standard email)"
+            id="txt-email"
+          />
+          <input
+            type="text"
+            placeholder="Username(more than 7 characters and no spaces)"
+            id="txt-username"
+          />
+          <input
+            type="password"
+            placeholder="Password(more than 7 characters)"
+            id="txt-password"
+          />
+          <input
+            type="password"
+            placeholder="Password confirm(must equal to password)"
+            id="txt-passwordconfirm"
+          />
+          <button id="btn-signup">Sign up</button>
           <h4>Already have an account? <a href="./login.html">Login</a></h4>
         </div>
       </div>
@@ -41,6 +57,14 @@
         title="Marvel Studios&amp;#039; Doctor Strange in the Multiverse of Madness _ Fate.mp4"
       ></iframe>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
+      integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="../js/signup.js"></script>
   </body>
 </html>
